@@ -39,21 +39,17 @@ Download the dataset from [Zenodo](https://zenodo.org) (5 GB).
 3. To check the detection result for these four target software programs, set "**testmode**" in **line 193** of "**Detector_for_OSSList.py**" file to** 1**, and adjust the file paths in **lines 196 and 197** in the "**Detector_for_OSSList.py**" file.
 
 4. Execute the "Detector_for_OSSList.py".
-```bash
-python3 Detector_for_OSSList.py
-```
+   ```bash
+   python3 Detector_for_OSSList.py
+   ```
 5. See the results (default output path: ./res/.)
 
 # Verify CENTRIS using Java language dataset
 
 ### Running CENTRIS
 
-## OSSCollector (`src/osscollector/`)
+## OSSCollector (`Adaptation_java_datasets/src/osscollector/`)
 
-### Purpose
-Collect git clone URLs (to be included in the component DB) into a single file. A sample file is provided.
-
-### Instructions
 1. **Specify Directory Paths**  
    Edit `OSS_Collector.py` (lines 17 to 21) to specify:
    - Directory for cloned repositories.
