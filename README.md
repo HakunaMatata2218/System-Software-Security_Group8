@@ -79,5 +79,4 @@ Execute the `Detector.py` script with the root path of the target software as an
    ```bash
    python3 Detector.py /path/of/the/target/software
    ```
-
-5.** Check the component identification results (default output path: ./detector/res/)**
+5. **Check the component identification results (default output path: ./detector/res/)**
