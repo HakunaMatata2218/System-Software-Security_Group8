@@ -25,7 +25,9 @@ ctags_path = "/path/to/ctags"  # Replace with the correct ctags path
 # Using the Provided Dataset to reproduce the paper experiment
 
 ## Dataset
-Download the dataset from [Zenodo]([https://zenodo.org](https://zenodo.org/records/4514689#.YB7sN-gzaUk)) (5 GB).
+### Download the Dataset
+
+Download the dataset from [Zenodo](https://zenodo.org/records/4514689#.YB7sN-gzaUk) (5 GB).
 
 ### Steps:
 
