@@ -66,18 +66,18 @@ Collect git clone URLs (to be included in the component DB) into a single file. 
 
 3. **Run the preprocessor based on your preprocessing choice:**
 For full preprocessing:
-```bash
-python3 Preprocessor_full.py
-```
+   ```bash
+   python3 Preprocessor_full.py
+   ```
 For lite preprocessing:
-```bash
-python3 Preprocessor_lite.py
-```
+   ```bash
+   python3 Preprocessor_lite.py
+   ```
 4. **Run the Detector**
 Execute the `Detector.py` script with the root path of the target software as an argument:
 
-```bash
-python3 Detector.py /path/of/the/target/software
-```
+   ```bash
+   python3 Detector.py /path/of/the/target/software
+   ```
 
 5.** Check the component identification results (default output path: ./detector/res/)**
