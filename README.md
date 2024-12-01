@@ -1,8 +1,8 @@
 # Leiden University System & Software Security Assignment 2: Hands-on Project - Group 8
 
-Welcome to the official repository of Group 8 for Assignment 2 of the System &amp; Software Security course, part of the Master’s program at Leiden University. 
+Welcome to the official repository for Assignment 2, Group 8 of the Leiden University Master's course Systems and Software Security.
 
-# CENTRIS: Reuse Detection Tool
+# CENTRIS: Reproduction and Java language dataset experiments
 
 ### Requirements
 
@@ -43,3 +43,25 @@ Download the dataset from [Zenodo](https://zenodo.org) (5 GB).
 python3 Detector_for_OSSList.py
 ```
 5. See the results (default output path: ./res/.)
+
+# Verify CENTRIS using Java language dataset
+
+### Running CENTRIS
+
+## OSSCollector (`src/osscollector/`)
+
+### Purpose
+Collect git clone URLs (to be included in the component DB) into a single file. A sample file is provided.
+
+### Instructions
+1. **Specify Directory Paths**  
+   Edit `OSS_Collector.py` (lines 17 to 21) to specify:
+   - Directory for cloned repositories.
+   - Directory for storing extracted functions.
+   - Path to the installed `ctags`.
+
+2. **Run the Script**
+   ```bash
+   python3 OSS_Collector.py
+
+
