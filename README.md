@@ -60,8 +60,24 @@ Collect git clone URLs (to be included in the component DB) into a single file. 
    - Directory for storing extracted functions.
    - Path to the installed `ctags`.
 
-2. **Run the Script**
+2. **Run the OSS_Collector Script**
    ```bash
    python3 OSS_Collector.py
 
+3. **Run the preprocessor based on your preprocessing choice:**
+For full preprocessing:
+```bash
+python3 Preprocessor_full.py
+```
+For lite preprocessing:
+```bash
+python3 Preprocessor_lite.py
+```
+4. **Run the Detector**
+Execute the `Detector.py` script with the root path of the target software as an argument:
 
+```bash
+python3 Detector.py /path/of/the/target/software
+```
+
+5.** Check the component identification results (default output path: ./detector/res/)**
