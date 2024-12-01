@@ -48,7 +48,7 @@ Download the dataset from [Zenodo](https://zenodo.org) (5 GB).
 
 ### Running CENTRIS
 
-## OSSCollector (`Adaptation_java_datasets/src/osscollector/`)
+## OSSCollector (`./Adaptation_java_datasets/osscollector/`)
 
 1. **Specify Directory Paths**  
    Edit `OSS_Collector.py` (lines 17 to 21) to specify:
@@ -60,7 +60,7 @@ Download the dataset from [Zenodo](https://zenodo.org) (5 GB).
    ```bash
    python3 OSS_Collector.py
 
-## Preprocessor (`Adaptation_java_datasets/src/preprocessor/`)
+## Preprocessor (`./Adaptation_java_datasets/preprocessor/`)
 1. **Run the preprocessor based on your preprocessing choice:**
    For full preprocessing:
       ```bash
@@ -70,7 +70,7 @@ Download the dataset from [Zenodo](https://zenodo.org) (5 GB).
       ```bash
       python3 Preprocessor_lite.py
       ```
-## Detector (`Adaptation_java_datasets/src/detector/`)
+## Detector (`./Adaptation_java_datasets/detector/`)
 1. **Run the Detector**
 Execute the `Detector.py` script with the root path of the target software as an argument:
 
@@ -78,5 +78,5 @@ Execute the `Detector.py` script with the root path of the target software as an
    python3 Detector.py /path/of/the/target/software
    ```
 
-## Results (`Adaptation_java_datasets/src/detector/res`)
+## Results (`./Adaptation_java_datasets/detector/res`)
 **Check the component identification results (default output path: ./detector/res/)**
