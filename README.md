@@ -60,7 +60,8 @@ Download the dataset from [Zenodo](https://zenodo.org) (5 GB).
    ```bash
    python3 OSS_Collector.py
 
-3. **Run the preprocessor based on your preprocessing choice:**
+## Preprocessor (`Adaptation_java_datasets/src/preprocessor/`)
+1. **Run the preprocessor based on your preprocessing choice:**
    For full preprocessing:
       ```bash
       python3 Preprocessor_full.py
@@ -69,10 +70,13 @@ Download the dataset from [Zenodo](https://zenodo.org) (5 GB).
       ```bash
       python3 Preprocessor_lite.py
       ```
-4. **Run the Detector**
+## Detector (`Adaptation_java_datasets/src/detector/`)
+1. **Run the Detector**
 Execute the `Detector.py` script with the root path of the target software as an argument:
 
    ```bash
    python3 Detector.py /path/of/the/target/software
    ```
+
+## Results (`Adaptation_java_datasets/src/detector/res`)
 5. **Check the component identification results (default output path: ./detector/res/)**
