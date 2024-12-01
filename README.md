@@ -79,4 +79,4 @@ Execute the `Detector.py` script with the root path of the target software as an
    ```
 
 ## Results (`Adaptation_java_datasets/src/detector/res`)
-5. **Check the component identification results (default output path: ./detector/res/)**
+**Check the component identification results (default output path: ./detector/res/)**
