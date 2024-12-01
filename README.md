@@ -36,7 +36,7 @@ Download the dataset from [Zenodo](https://zenodo.org/records/4514689#.YB7sN-gza
    ```bash
    tar -xvf Centris_dataset.tar
 
-2. There are four sample target software (ArangoDB, Crown, Cocos2dx, and Splayer, which are utilized in the in-depth comparison in the paper
+2. There are four sample target software (ArangoDB, Crown, Cocos2dx, and Splayer), which are utilized in the in-depth comparison in the paper
 
 3. To check the detection result for these four target software programs, set "**testmode**" in **line 193** of "**Detector_for_OSSList.py**" file to** 1**, and adjust the file paths in **lines 196 and 197** in the "**Detector_for_OSSList.py**" file.
 
