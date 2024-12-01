@@ -65,14 +65,14 @@ Collect git clone URLs (to be included in the component DB) into a single file. 
    python3 OSS_Collector.py
 
 3. **Run the preprocessor based on your preprocessing choice:**
-For full preprocessing:
-   ```bash
-   python3 Preprocessor_full.py
-   ```
-For lite preprocessing:
-   ```bash
-   python3 Preprocessor_lite.py
-   ```
+   For full preprocessing:
+      ```bash
+      python3 Preprocessor_full.py
+      ```
+   For lite preprocessing:
+      ```bash
+      python3 Preprocessor_lite.py
+      ```
 4. **Run the Detector**
 Execute the `Detector.py` script with the root path of the target software as an argument:
 
