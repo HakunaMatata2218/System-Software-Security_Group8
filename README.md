@@ -82,3 +82,50 @@ Execute the `Detector.py` script with the root path of the target software as an
 
 ## Results (`./Adaptation_java_datasets/detector/res`)
 **Check the component identification results (default output path: ./detector/res/)**
+
+# Identifying the most reused library using CENTRIS
+## Execute under the MostReuseFinder folder.
+### Step 1: Clone Repositories
+**Use the osscollector/clone_repositories.py script to clone the target repositories. This step downloads the required repositories for further analysis.
+Run the following command:**
+```bash
+python osscollector/clone_repositories.py
+```
+### Step 2: Analyze Cloned Repositories
+**Analyze the cloned repositories to extract relevant functions by using the osscollector/parse_functions.py script.
+Run the following command:**
+```bash
+python osscollector/parse_functions.py
+```
+### Step 3: Preprocess Data
+**Preprocess the data to prepare it for detection. Use the preprocessor/Preprocessor_full.py script.
+Run the following command:**
+```bash
+python preprocessor/Preprocessor_full.py
+```
+
+### Step 4: Detection Pipeline
+#### 4.1 Clone Target Detection Project
+**Detect the target OSS projects using the detector/clone.py script.
+Run the following command:**
+```bash
+python detector/clone.py
+```
+#### 4.2 Generate Hashes for Target Files
+**Generate hashes for the target detection files with the detector/parse.py script.
+Run the following command:**
+```bash
+python detector/parse.py
+```
+#### 4.3 Compare Detected Clones
+**Compare and identify detected clones using the detector/Detector.py script.
+Run the following command:**
+```bash
+python detector/Detector.py
+```
+### Step 5: Visualize Results
+**Visualize the results of the detection and analysis by using the detector/statistics.py script.
+Run the following command:**
+```bash
+python detector/statistics.py
+```
